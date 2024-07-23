@@ -1,0 +1,252 @@
+
+*HTML CODE*
+
+<div class="shop-section">
+            <div class="box1">
+                <div class="box1-content">
+                   <h3 class="title" style="margin-top: 1%;"> Revamp your home in style</h3>
+                </div>
+                    <div class="box1-image">
+                  
+                        <p style="padding-top: 80%; font-size:0.85rem; ;">Cushion covers,
+                            bedsheets & more </p>
+                    </div>
+                  
+                    <div class="box1-image2">
+                    <p style="padding-top: 80%; font-size:0.85rem; ;" >Figurines, vases & more </p>
+                </div>
+
+                
+                <div class="box1-image3" style="background-image:url('image4.jpg'); ">
+             <p style="padding-top: 80%; font-size:0.85rem; ;" >Home Storage</p>
+           </div>
+
+            <div class="box1-image4" >
+          <p style="padding-top: 80%; font-size:0.85rem; ;" >Lighting solutions </p>
+      </div> 
+
+                   <p class="expolre" >Explore more</p>  
+            </div>
+
+            <!-- box section 2 -->
+
+            <div class="box2">
+                <div class="box1-content">
+                    <h3 class="title" style="margin-top: 3%; text-align: center;">Appliances for your home | Up to 55% off</h3>
+                 </div>
+                     <div class="box2-image1"
+                    ">
+                         <p style="padding-top: 80%; font-size:0.85rem;">Air conditioners </p>
+                     </div>
+                   
+                     <div class="box2-image2">
+                     <p style="padding-top: 80%;padding-right: 20%; font-size:0.85rem; ;" >Refrigerators</p>
+                 </div>
+ 
+                 
+                 <div class="box2-image3"  >
+              <p style="padding-top: 80%; font-size:0.85rem; ;" >Microwaves</p>
+            </div>
+ 
+             <div class="box2-image4" >
+           <p style="padding-top: 80%; font-size:0.85rem; ;" >Washing machines </p>
+       </div> 
+ 
+                    <p class="see" >See more</p> 
+            </div>
+
+            <!-- box section 3 -->
+
+            <div class="box3">
+                <div class="box3-content">
+                    <h3 class="title" style="margin-top: 3%; text-align: center;">Automotive essentials | Up to 60% off</h3>
+                 </div>
+                     <div class="box3-image1">
+                         <p style="padding-top: 80%; font-size:0.85rem;">Cleaning accessories
+                           </p>
+                     </div>
+                   
+                     <div class="box3-image2">
+                     <p style="padding-top: 80%; padding-right: 20%; font-size:0.85rem ;" > Tyre & rim care</p>
+                 </div>
+ 
+                 
+                 <div class="box3-image3" >
+              <p style="padding-top: 80%; font-size:0.85rem;" >Vacuum Cleaner </p>
+            </div>
+ 
+             <div class="box3-image4" >
+           <p style="padding-top: 80%; font-size:0.85rem;" >Helmets</p>
+       </div> 
+ 
+                    <p class="see" >See more</p> 
+            </div>
+        </div>
+
+
+
+	*CSS CODE*
+box1-image{
+    background-image: url("image2.jpg");
+    display: flex;
+    justify-content: center;
+    top: 40px;
+    height: 30%;
+    width:  40% ;
+    margin-top: 2%;
+    margin-left: 30px;
+    
+}
+
+.box1-image2{
+    background-image:url('image3.jpg');
+    display: flex;
+    justify-content: flex-end;
+     top: 40px;
+    height: 30%;
+    width:  40% ;
+    margin-top: 14%;
+    margin-left: 30px;
+
+}
+
+.box1-image3{
+   
+    display: flex;
+    justify-content: center;
+    top: 40px;
+    height: 30%;
+    width: 40% ;
+    margin-top: -76%;
+    margin-left: 200px;
+}
+
+.box1-image4{
+    background-image:url('image5.jpg');
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 40% ;
+    margin-top: 14%;
+    margin-left: 200px;
+}
+
+.expolre{
+    color: #007185;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1%;
+    margin-left: 20px;
+    font-size: 0.85rem;
+}
+
+/* box section 2 */
+.box2-image1{
+    background-image: url("box-2image1.jpg");
+      display: flex;
+    justify-content: center;
+    top: 40px;
+    height: 30%;
+    width:  40% ;
+    margin-top: 2%;
+    margin-left: 30px;
+    
+}
+
+.box2-image2{
+    background-image:url("box-2image2.jpg");
+    display: flex;
+    justify-content: flex-end;
+     top: 40px;
+    height: 30%;
+    width:  40% ;
+    margin-top: 10%;
+    margin-left: 30px;
+
+}
+
+.box2-image3{
+    background-image: url("box-2image3.jpg");
+    display: flex;
+    justify-content: center;
+    top: 40px;
+    height: 30%;
+    width: 40% ;
+    margin-top: -72%;
+    margin-left: 200px;
+}
+
+.box2-image4{
+    background-image:url("box-2image4.jpg");
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 40% ;
+    margin-top: 10%;
+    margin-left: 200px;
+}
+
+.see{
+    color: #007185;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10%;
+    margin-left: 20px;
+    font-size: 0.85rem;
+}
+
+/* box section 3 */
+.box3-image1{
+    background-image: url("box3-image1.jpg");
+      display: flex;
+    justify-content: center;
+    top: 40px;
+    height: 30%;
+    width:  40% ;
+    margin-top: 2%;
+    margin-left: 30px;
+    
+}
+
+.box3-image2{
+    background-image:url("box3-image2.jpg");
+    display: flex;
+    justify-content: flex-end;
+     top: 40px;
+    height: 30%;
+    width:  40% ;
+    margin-top: 10%;
+    margin-left: 30px;
+
+}
+
+.box3-image3{
+    background-image: url("box3-image3.jpg");
+    display: flex;
+    justify-content: center;
+    top: 40px;
+    height: 30%;
+    width: 40% ;
+    margin-top: -72%;
+    margin-left: 200px;
+}
+
+.box3-image4{
+    background-image:url("box3-image4.jpg");
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 40% ;
+    margin-top: 10%;
+    margin-left: 200px;
+}
+
+.see{
+    color: #007185;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10%;
+    margin-left: 3
+    0px;
+    font-size: 0.85rem;
+}
