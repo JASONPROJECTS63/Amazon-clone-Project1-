@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.css">
     
     <title>Project1</title>
 </head>
@@ -18,17 +17,23 @@
             <a class="image" href="project.html"  ><img src="download.png" height="60" width="100" ></a>
          </div>
          <div>
-             <p class="delivery">Deliver to</p>
-             <div class="add-to">
-                <i class="fa-solid fa-location-dot"></i>   <p class="india"><b>INDIA</b></p>
+
+    <div class="nav-address">
+             <p class="add-first">Deliver to</p>
+             <div class="add-icon">
+                <ion-icon class="icon" name="location-outline"></ion-icon>
+                <p class="add-sec">India</p>
              </div>
+             
          </div>
+    </div>
+
          <div class="nav-search">
              <select class="nav-select">
                  <option>All</option>
                  <option>Alexa Skills</option>
                  <option>Amazon Devices</option>
-                 <option>Amazon Fashion</option>
+                 <option>Amazon Fashion</option>ch
                  <option>Amazon Fresh</option> 
                  <option> Amazon Fresh Meat</option>
                  <option>Amazon Pharmacy</option>
@@ -75,19 +80,13 @@
              
              <input  class="input"  placeholder="Search Amazon ">
         
-             <div class="serach-icon">
-             <input  
-             style="height:40px; border-top-right-radius:4px;
-              border-bottom-right-radius:4px;
-              border: none;
-              color: black;
-              background-color: #F08804;"
-              type="submit"
-             value="Search" tabindex="0">
-            </div>
+        <div class="search-icon" >
+            <ion-icon class="search" name="search"></ion-icon>
+        </div>
          </div>
+         
          <div>
-            <a class="Hello" href="login.html"> Hello,Login/Signup</a>
+            <a class="Hello" href="login.html"><ion-icon class="profile" name="person-outline"></ion-icon> Hello,Login/Signup</a>
             <div class="add to">
                <p class="Accounts"><b>Account & lists</b></p>
             </div>
@@ -99,7 +98,12 @@
             </div>
         </div>
         <div>
+
+            <div class="cart-panel">
+            <ion-icon class="icon2" name="cart-outline"></ion-icon>
             <p class="Cart">Cart</p>
+            </div>
+
         </div>
     </div>
 
@@ -364,11 +368,12 @@
             <div class="foot-panel3">
            <div class="image"></div>
            <div class="language">
-               <a style="text-decoration: none;" class="language-list" href="language.html"> Select your language</a>
+            
+               <a style="text-decoration: none;" class="language-list" href="language.html"><ion-icon class="lang-select" name="globe-outline"></ion-icon> Select your language</a>
            </div>
 
            <div class="country">
-               <a style="text-decoration: none;" class="country-list" href="language.html"> Select your country</a>
+               <a style="text-decoration: none;" class="country-list" href="language.html"><ion-icon class="globe" name="earth-outline"></ion-icon> Select your country</a>
            </div>
             </div>
 
@@ -442,6 +447,8 @@
                      </div>
         </footer>
         
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         
     </body>
 </html> 
