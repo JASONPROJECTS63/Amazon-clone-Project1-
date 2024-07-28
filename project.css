@@ -194,6 +194,8 @@
 
 /* shop section */
 .shop-section1{
+    background-color: #e2e7e6; 
+    height:430px;
     justify-content: space-evenly;
     display: flex;
     height: 100px;
@@ -202,6 +204,7 @@
 
 
 /* box1 section */
+
 
 .section1-content{
     margin-top: 3%;
@@ -218,32 +221,30 @@
     width: 405px;
     box-shadow: 7px 7px 7px 7px darkgray;
     cursor: pointer;
+    margin-left:  20px;
     margin-top: 40px;
     transition: 400ms;
 }
 
-
-
 .section1-box1:hover{
     font-weight: bold;
    transform: scale(1.03);
-
 }
-.Explore{
 
+.section1-image1{
+ padding-left: 15px;
+ padding-top: 20px;
+}
+.section1-image3{
+ padding-left: 15px;
+ padding-top: 50px;
+}
+
+.Explore{
     color: #007185;
     text-decoration: none;
-    padding-top: 100px;
+    margin-top: 200px;
     padding-left: 40px;
-}
-
-.shop-section1{
-    justify-content: space-evenly;
-    display: flex;
-    height: 500px;
-    width: 100%;
-    background-color: #e2e2e2;
-   
 }
 
 /* section1-box2 */
@@ -270,12 +271,22 @@
     transform: scale(1.03);
 }
 
-.explore{
+.section2-image1{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.section2-image3{
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+.see{
     display: flex;
     justify-content: flex-start;
     color: #007185;
     text-decoration: none;
-    padding-top: 100px;
+    padding-top: 0px;
     padding-left: 40px;
 }
 
@@ -301,6 +312,17 @@
 
 }
 
+
+.section3-image1{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.section3-image3{
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
 .explore{
     display: flex;
     justify-content: flex-start;
@@ -311,14 +333,7 @@
 }
 
 
-.See1{
-    display: flex;
-    justify-content: flex-start;
-    color: #007185;
-    text-decoration: none;
-    padding-top: 80px;
-    padding-left: 40px;
-}
+
 .See{
     display: flex;
     justify-content: flex-start;
@@ -567,7 +582,7 @@
     display: flex;
    justify-content:flex-start;
    background-color: #e2e7e6;
-   margin-top: -30px;
+   padding-top: 0px;
    height: 450px;
    width: 100%;
    
@@ -575,7 +590,7 @@
 
 
 .box5-content{
-   margin-top: 3px;
+   padding-top: 0px;
    text-align: center;
 }
 
@@ -584,15 +599,13 @@
    height:270px;
    width: 2000px;
    margin-top: 10%;
-   margin-left: 40px;
-   margin-right: 40px;
-   padding: 0px 5px 0px 5px;
+   padding-left: 40px;
+   padding-right: 40px;
    text-align: center;
    transition: 400ms;
 }
 
 .box5:hover{
-   filter:hue-rotate(1);
    transform: scale(1.03);
 }
 
